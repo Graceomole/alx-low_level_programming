@@ -8,7 +8,7 @@
  *Returm: 0
  */
 
-int main()
+int main(void)
 {
 int n;
 srand(time(0));
