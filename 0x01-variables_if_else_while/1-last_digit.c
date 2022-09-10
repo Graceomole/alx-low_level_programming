@@ -7,10 +7,10 @@
  * Description: Check if the last digit of a number is stored in available
  * Return: 0 Always (Success)
  */
-
+int main(void)
+{
 int n;
 int x;
-{
 srand(time(0));
 n= rand() - RAND_MAX / 2;
 x = n % 10;
