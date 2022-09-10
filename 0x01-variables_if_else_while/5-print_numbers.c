@@ -4,7 +4,7 @@
 /**
  * main - Entry point
  * Description: check that prints base 10 single numbers
- * Return 0 Always Success
+ * Return: 0 Always Success
  */
 
 int main(void)
