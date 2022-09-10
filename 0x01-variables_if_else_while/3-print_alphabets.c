@@ -4,7 +4,7 @@
 /**
  * main - Entry point
  * Description: Check that prints lowercase and uppercase alphabet
- * Return:0 Always Success
+ * Return: 0 Always Success
  */
 
 int main(void)
@@ -14,7 +14,7 @@ for (letter = 'a'; letter <= 'z'; letter++)
 {
 putchar(letter);
 }
-for letter = 'A'; letter <= 'Z'; letter++)
+for (letter = 'A'; letter <= 'Z'; letter++)
 {
 putchar(letter);
 }
