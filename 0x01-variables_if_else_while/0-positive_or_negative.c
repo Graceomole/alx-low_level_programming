@@ -5,7 +5,7 @@
 /**
  * main - Entry point
  * Description : To check if a number is negative or positive
- * Returm: 0 Always (Success)
+ * Return: 0 Always (Success)
  */
 
 int main(void)
