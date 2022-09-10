@@ -4,7 +4,7 @@
 
 /**
  * main - Entry point
- * Description: Check if the last digit of a number is stored in avariable
+ * Description: Check if the last digit of a number is stored in available
  * Return: 0 Always (Success)
  */
 
