@@ -8,7 +8,7 @@
 
 int main(void)
 {
-stytem("echo '_putchar\n'");
+system("echo '_putchar\n'");
 return (0);
 }
   
