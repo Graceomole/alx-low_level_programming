@@ -8,7 +8,8 @@
 
 int main(void)
 {
-putchar('_p');
+putchar('__')
+putchar('p');
 putchar('u');
 putchar('t');
 putchar('c');
