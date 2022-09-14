@@ -18,8 +18,8 @@ _putchar(n);
 }
 for (ch = 'a'; ch <= 'f'; ch++)
 {
-putchar(ch);
+_putchar(ch);
 }
-putchar('\n');
+_putchar('\n');
 return (0);
 }
