@@ -1,5 +1,6 @@
-#include <stdio.h>
 #include "main.h"
+#include <stdio.h>
+
 
 /**
  * main - prints Buzz each numbers of 3 and 5.
@@ -9,6 +10,7 @@
 int main(void)
 {
 int n;
+  
 n = 1;
 printf("%d", n);
 for (n = 2; n <= 100; n++)
@@ -30,4 +32,7 @@ printf(" %d", n);
 }
 }
 printf("\n");
+  
 return (0);
+}
+
