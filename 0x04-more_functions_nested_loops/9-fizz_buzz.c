@@ -1,7 +1,5 @@
 #include "main.h"
 #include <stdio.h>
-#include "main.h"
-
 
 /**
  * main - prints Buzz each numbers of 3 and 5.
@@ -36,7 +34,4 @@ printf("\n");
   
 return (0);
 }
-<<<<<<< HEAD
-=======
 
->>>>>>> 238674407ef1c1873f06c915e286d20b7371474f
