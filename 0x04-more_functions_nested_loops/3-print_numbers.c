@@ -7,10 +7,10 @@
 
 void print_numbers(void)
 {
-int ch;
-for (ch = 48; ch < 58; ch++)
+int i;
+for (i = 48; i < 58; i++)
 {
-_putchar(ch);
+_putchar(i);
 }
 _putchar("/n");
 }
