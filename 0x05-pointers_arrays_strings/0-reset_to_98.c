@@ -1,8 +1,9 @@
 #include <stdio.h>
+#include "main.h"
 
 /**
- * main - check the code
- *
+ * reset_to_98 - takes a pointer to a parameter and upddate its value.
+ * @n: input integer.
  * Return: Always 0.
  */
 
