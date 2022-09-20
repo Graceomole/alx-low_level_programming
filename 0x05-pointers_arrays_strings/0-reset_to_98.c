@@ -10,12 +10,7 @@
 int main(void)
 {
 int n;
-n = 402;
-int *ptr = NULL;
-ptr = &n;
-printf("n = %d\n", n);
-*ptr = 98;
-printf("n = %d\n", *ptr);
+*n = 98;
 return (0);
 }
 
