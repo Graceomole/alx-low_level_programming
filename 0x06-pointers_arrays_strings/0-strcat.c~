@@ -1,0 +1,15 @@
+#include "main.h"
+#include <stdio.h>
+
+/**
+ * *_strcat - a function that concanate a string
+ * @s1 : first string
+ * @s2 : second string.
+ * Return: always 0
+ */
+
+int main(void)
+{
+strcat(s1, s2);
+return (0);
+}
