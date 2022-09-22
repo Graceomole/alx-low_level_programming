@@ -2,14 +2,26 @@
 #include <stdio.h>
 
 /**
- * *_strcat - a function that concanate a string
- * @dest : first string
- * @src : second string.
- * Return: always 0
+ * _strcat - a function that concacanates two string,
+ * @dest : destination.
+ * @src : source.
+ * Return: returns the pointer to dest.
  */
 
-int main(void)
+char *_strcat(char *dest, char *src)
 {
-strcat(*dest, *src);
-return (0);
+int count = 0, count2 = 0;
+while (*(dest + count) != '\0')
+{
+count++;
+}
+while (count2 >= 0)
+{
+*(dest + count) = *(src + count@);
+if (*(src + count2) == '\0')
+break;
+count++;
+count2++;
+}
+return (dest);
 }
