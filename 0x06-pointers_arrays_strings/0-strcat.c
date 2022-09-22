@@ -10,18 +10,11 @@
 
 char *_strcat(char *dest, char *src)
 {
-int count = 0, count2 = 0;
-while (*(dest + count) != '\0')
-{
-count++;
-}
-while (count2 >= 0)
-{
-*(dest + count) = *(src + count@);
-if (*(src + count2) == '\0')
-break;
-count++;
-count2++;
-}
+int s1, s2;
+s1 = 0;
+while (dest[s1])
+s1++;
+for (s2 = 0; src[s2]; s2++)
+dest[s1++] = src[s2];
 return (dest);
 }
