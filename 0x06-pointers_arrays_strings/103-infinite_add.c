@@ -5,7 +5,6 @@
 * @n: integer params
 * Return: 0
 */
-
 void rev_string(char *n)
 {
 int i = 0;
