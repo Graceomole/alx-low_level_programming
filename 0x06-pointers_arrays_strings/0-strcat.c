@@ -2,8 +2,9 @@
 
 /**
  * _strcat - a function that concacanates two string,
- * @dest: destination.
- * @src: source.
+ * @dest: string to append to.
+ * @src: strings to add.
+ *
  * Return: returns the pointer to dest.
  */
 char *_strcat(char *dest, char *src)
