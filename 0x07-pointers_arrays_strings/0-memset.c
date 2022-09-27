@@ -1,5 +1,4 @@
 #include "main.h"
-
 /**
  * _memset - Entry point
  * Description - A function that fills memory with a constant byte
@@ -8,7 +7,6 @@
  * *@n: the function accepts an input saved into n
  * Return: a char as success
  */
-
 char *_memset(char *s, char b, unsigned int n)
 {
 unsigned int i = 0;
