@@ -1,4 +1,5 @@
 #include "main.h"
+#include <stdio.h>
 /**
  * _memset - Entry point
  * Description - A function that fills memory with a constant byte
