@@ -1,5 +1,5 @@
 #include <stdio.h>
-#include "main.h"
+#include <stdlib.h>
 
 /**
  * main - program that prints its name, followed by a new line
@@ -14,9 +14,9 @@ if (argc != 3)
 printf("Error\n");
 else
 {
-num_1 = _atoi(argv[1]);
-num_2 = _atoi(argv[2]);
-mul = num_1 *num_2;
+num_1 = atoi(argv[1]);
+num_2 = atoi(argv[2]);
+mul = num_1 * num_2;
 printf("%d\n", mul);
 }
 return (0);
