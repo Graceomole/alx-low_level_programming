@@ -1,6 +1,5 @@
 #include <stdlib.h>
 #include "main.h"
-
 /**
  * *argstostr - concatenates all the arguments of the program
  * @ac: number of arguments
@@ -23,6 +22,7 @@ c++;
 }
 aout = malloc((c + 1) * sizeof(char));
 if (aout == NULL)
+{
 free(aout);
 return (NULL);
 }

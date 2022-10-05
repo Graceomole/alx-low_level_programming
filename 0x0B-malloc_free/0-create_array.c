@@ -24,7 +24,7 @@ return (0);
 
 while (i < size)
 {
-*(p + i) = c
+*(p + i) = c;
 i++;
 }
 
